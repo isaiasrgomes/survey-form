@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Formulário de Pesquisa</title>
+</head>
+
+<body>
+    <div id="back-layer">
+        <div id="header">
+            
+           <h1>Formulário de Pesquisa Musical</h1>
+           <p>Obrigado por dedicar  seu tempo para nos ajudar nesta pesquisa</p>
+           
+        </div>
+        <div id="container">
+            <form>
+                <fieldset>
+                <label for="name">
+                    Nome
+                </label>
+                <input type="text" name="name" id="name" placeholder="Digite seu Nome" required>
+                
+                
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+                
+                
+                <label for="age">
+                    Idade <span>(opcional)</span>
+                </label>
+                <input type="number" name="age" id="age" placeholder="Idade" min="13" max="100">
+                </fieldset>
+                
+                <fieldset>
+                    <label for="options">
+                        Qual é o seu gênero musical favorito?
+                    </label>
+                        <select id="options">
+                            <option value="">Selecione uma opção</option>
+                            <option name="op1" value="1">Pop</option>                           <option name="op2" value="2">MPB</option>                           <option name="op3" value="3">Rock</option>                         <option name="op4" value="4">Sertanejo</option>
+<option name="op5" value="5">R&B</option>
+<option name="op6" value="6">Funk</option>
+<option value="7" name="op7">Indie</option>
+<option value="8" name="op8">Hip Hop / Rap</option>
+<option value="9" name="op9">Country</option>
+<option value="10" name="op10">Eletrônica</option>
+<option value="11" name="op11">Axé</option>
+<option value="12" name="op12">Forró</option>
+<option value="13" name="op13">Jazz</option>
+                     </select>
+                     <br>
+                     <br>
+                     <p>
+                         Qual elemento musical mais chama a sua atenção?
+                     </p> <br>
+                     
+                     <input type="radio" name="musical-element" id="melody" >
+                     
+                     <label for="melody" class="radio">
+                         Melodia
+                     </label> <br>   
+                     
+                     <input type="radio" name="musical-element" id="harmony">
+                     <label for="harmony" class="radio">Harmonia</label><br>
+                     
+                     <input type="radio" name="musical-element" id="lyrics">
+                     <label for="lyrics" class="radio">Letra</label>
+                     <br>
+                     <br>
+                     <p>Quais desses instrumentos musicais você teria interesse em aprender?</p><br>
+                     <input type="checkbox" name="guitar" id="guitar">
+                     <label for="guitar" class="checkbox">Violão</label>
+                     <br>
+                     <input type="checkbox" name="drums" id="drums">
+                     <label for="drums" class="checkbox">Bateria</label>
+                     <br>
+                     <input type="checkbox" name="electric-guitar" id="electric-guitar">
+                     <label for="electric-guitar" class="checkbox">Guitarra</label>
+                     <br>
+                     <input type="checkbox" name="bass" id="bass">
+                     <label for="bass" class="checkbox">Baixo</label>
+                   <br>
+                   
+                   <input type="checkbox" name="violin" id="violin">
+                     <label for="violin" class="checkbox">Violino</label>
+                     
+                     <br>
+                     <input type="checkbox" name="flute" id="flute">
+                     <label for="flute" class="checkbox">Flauta transversal</label>
+                     <br>
+                     
+                     <input type="checkbox" name="trumpet" id="trumpet">
+                     <label for="trumpet" class="checkbox">Trompete</label>
+                     
+                     <br>
+                     
+                     <input type="checkbox" name="trombone" id="trombone">
+                     <label for="trombone" class="checkbox">Trombone</label>
+                     
+                     <br>
+                     <input type="checkbox" name="sax" id="sax">
+                     <label for="sax" class="checkbox">Sax alto</label>
+                     <br>
+                     <input type="checkbox" name="sax-tenor" id="sax-tenor">
+                     <label for="sax-tenor" class="checkbox">Sax tenor</label>
+                </fieldset>
+                <fieldset>
+                    <p>
+                    Alguma dúvida ou sugestão?
+                </p>
+                <br>
+                <textarea placeholder="Deixe seu comentário" rows="8"></textarea>
+                </fielset>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

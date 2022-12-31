@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./assets/bg.jpeg") no-repeat top center/cover;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    background-size: 140%;
+    width: 100vw;
+    
+}
+
+#back-layer {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100vw;
+}
+
+
+#header h1{
+    text-align: center;
+    font-weight: 500;
+    padding: 24px; 0px;
+    font-size: 20px;
+}
+
+#header p {
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 24px;
+}
+
+#container {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column; 
+    margin: 30px auto 0px;
+}
+
+#container form {
+   padding: 0px 20px;
+}
+
+#container form label {
+    display: block;
+    padding-bottom: 8px;
+    padding-top: 14px;
+    font-size: 15px ;
+}
+
+#container form span {
+    color: #ff1f00;
+    font-size: 12px;
+}
+
+#container input {
+    width: 95vw;
+    margin: 0px auto;
+    padding: 8px 6px;
+    border-radius: 5px;
+}
+
+fieldset {
+    padding: 8px 8px;
+    width: 99vw;
+    margin-left: -22px;
+    border: none;
+}
+
+fieldset select {
+   padding: 8px 6px; 
+   border-radius: 5px;
+   width: 95vw;
+}
+
+#container p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#container input[type="radio"], #container input[type="checkbox"] {
+   margin-left: -48%;
+   display: inline-block;
+   
+}
+
+#container label[class="radio"], #container label[class="checkbox"] {
+  display: inline-block;       
+  margin-left: -48%;
+  
+}
+
+textarea {
+    width: 95vw;
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 8px 6px;
+    font-family: 'Inter', sanas-serif;
+    font-size: 16px;
+}
+
+#container input[type="submit"] {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    background-color: #ef3228;
+    border: none;
+}
